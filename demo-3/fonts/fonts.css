@@ -1,0 +1,70 @@
+
+@font-face {
+	font-family: 'CevicheOne-Regular';
+	src: url('web-fonts/CevicheOne-Regular/CevicheOne-Regular.eot?#iefix') format('embedded-opentype'),
+	url('web-fonts/CevicheOne-Regular/CevicheOne-Regular.otf')  format('opentype'),
+	url('web-fonts/CevicheOne-Regular/CevicheOne-Regular.woff') format('woff'),
+	url('web-fonts/CevicheOne-Regular/CevicheOne-Regular.ttf')  format('truetype'),
+	url('web-fonts/CevicheOne-Regular/CevicheOne-Regular.svg#CevicheOne-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('web-fonts/OpenSans/OpenSans.eot?#iefix') format('embedded-opentype'),
+	url('web-fonts/OpenSans/OpenSans.woff') format('woff'),
+	url('web-fonts/OpenSans/OpenSans.ttf')  format('truetype'),
+	url('web-fonts/OpenSans/OpenSans.svg#OpenSans') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('web-fonts/OpenSans-Light/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+	url('web-fonts/OpenSans-Light/OpenSans-Light.woff') format('woff'),
+	url('web-fonts/OpenSans-Light/OpenSans-Light.ttf')  format('truetype'),
+	url('web-fonts/OpenSans-Light/OpenSans-Light.svg#OpenSans-Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'OpenSansLight-Italic';
+	src: url('web-fonts/OpenSansLight-Italic/OpenSansLight-Italic.eot?#iefix') format('embedded-opentype'),
+	url('web-fonts/OpenSansLight-Italic/OpenSansLight-Italic.woff') format('woff'),
+	url('web-fonts/OpenSansLight-Italic/OpenSansLight-Italic.ttf')  format('truetype'),
+	url('web-fonts/OpenSansLight-Italic/OpenSansLight-Italic.svg#OpenSansLight-Italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Raleway-Regular';
+	src: url('web-fonts/Raleway-Regular/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+	url('web-fonts/Raleway-Regular/Raleway-Regular.woff') format('woff'),
+	url('web-fonts/Raleway-Regular/Raleway-Regular.ttf')  format('truetype'),
+	url('web-fonts/Raleway-Regular/Raleway-Regular.svg#Raleway-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Raleway-SemiBold';
+	src: url('web-fonts/Raleway-SemiBold/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+	url('web-fonts/Raleway-SemiBold/Raleway-SemiBold.woff') format('woff'),
+	url('web-fonts/Raleway-SemiBold/Raleway-SemiBold.ttf')  format('truetype'),
+	url('web-fonts/Raleway-SemiBold/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
