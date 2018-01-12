@@ -23,9 +23,6 @@ $(document).ready(function(){
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ],
       	dots: false,
       	 slidesToShow: 4,
@@ -50,47 +47,47 @@ classToAdd: 'visible animated slideInLeft',
 offset: 100
 });
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-  //E-mail Ajax Send
-  $("#form-1").submit(function() { //Change
-    var th = $(this);
-    $.ajax({
-      type: "POST",
-      url: "../mail.php", //Change
-      data: th.serialize()
-    }).done(function() {
-      alert("Thank you!");
-      setTimeout(function() {
-        // Done Functions
-        th.trigger("reset");
-      }, 1000);
-    });
-    return false;
-  });
+//   //E-mail Ajax Send
+//   $("#form-1").submit(function() { //Change
+//     var th = $(this);
+//     $.ajax({
+//       type: "POST",
+//       url: "../mail.php", //Change
+//       data: th.serialize()
+//     }).done(function() {
+//       alert("Thank you!");
+//       setTimeout(function() {
+//         // Done Functions
+//         th.trigger("reset");
+//       }, 1000);
+//     });
+//     return false;
+//   });
 
-});
+// });
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-  //E-mail Ajax Send
-  $("#form-2").submit(function() { //Change
-    var th = $(this);
-    $.ajax({
-      type: "POST",
-      url: "../mail.php", //Change
-      data: th.serialize()
-    }).done(function() {
-      alert("Thank you!");
-      setTimeout(function() {
-        // Done Functions
-        th.trigger("reset");
-      }, 1000);
-    });
-    return false;
-  });
+//   //E-mail Ajax Send
+//   $("#form-2").submit(function() { //Change
+//     var th = $(this);
+//     $.ajax({
+//       type: "POST",
+//       url: "../mail.php", //Change
+//       data: th.serialize()
+//     }).done(function() {
+//       alert("Thank you!");
+//       setTimeout(function() {
+//         // Done Functions
+//         th.trigger("reset");
+//       }, 1000);
+//     });
+//     return false;
+//   });
 
-});
+// });
 
  jQuery('a[href^="#"]').click(function(e) {
  
@@ -163,8 +160,13 @@ var $container = $(".masonry-container");
 
 });
 
-var videoCont = document.getElementsByClassName('video-container');
+document.body.onload = function() {
 
-videoCont.before.onclick = function() {
-    console.log(1);
-  };
+  setTimeout(function(){
+    var preloader = document.getElementById('page-preloader');
+    if(!preloader.classList.contains('done') ){
+      preloader.classList.add('done')
+    }
+  }, 1000)
+
+}
