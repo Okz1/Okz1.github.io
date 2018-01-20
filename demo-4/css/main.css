@@ -1200,11 +1200,11 @@ template {
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1102px) {
+@media only screen and (max-width: 1127px) {
   .project-gallery-item {
-    -webkit-flex-basis: 295px;
-        -ms-flex-preferred-size: 295px;
-            flex-basis: 295px; } }
+    -webkit-flex-basis: 282px;
+        -ms-flex-preferred-size: 282px;
+            flex-basis: 282px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -1375,7 +1375,9 @@ template {
       background: #fff;
       z-index: 2; }
   .project-title {
-    width: 100%; } }
+    width: 100%; }
+  .contact-inner-form form {
+    width: 80%; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
