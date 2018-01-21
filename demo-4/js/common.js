@@ -162,12 +162,6 @@ $(document).ready(function() {
         $('.header-top-nav .close_menu').hide();
     });
 
-var rectangl = $('#rec').offset();
-var paragf = $('.header .slick-corusel p').offset();
-
-if(paragf.top <= 330 && paragf.left <= -448){
-	$("#rec").css('display', "none");
-}
 
 
 });
