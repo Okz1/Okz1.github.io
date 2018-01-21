@@ -1099,19 +1099,19 @@ template {
     color: #fff;
     font-size: 1.5rem;
     background: rgba(255, 255, 255, 0.3);
-    outline: none; }
+    outline: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-left: 40px;
+    font-family: "Roboto-Light", sans-serif; }
     .search-field input::-webkit-input-placeholder {
-      color: #fff;
-      padding-left: 15px; }
+      color: #fff; }
     .search-field input::-moz-placeholder {
-      color: #fff;
-      padding-left: 15px; }
+      color: #fff; }
     .search-field input:-ms-input-placeholder {
-      color: #fff;
-      padding-left: 15px; }
+      color: #fff; }
     .search-field input::placeholder {
-      color: #fff;
-      padding-left: 15px; }
+      color: #fff; }
   .search-field-mod {
     -webkit-transform: translateX(0%);
         -ms-transform: translateX(0%);
